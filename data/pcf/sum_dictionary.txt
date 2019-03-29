@@ -1,0 +1,686 @@
+[updated 10/21/2008]
+
+PRESIDENTIAL MAP REPORT SUMMARIES DATA FILE
+Federal Election Commission
+999 E Street, NW
+Washington, DC  20463
+
+DATA DESCRIPTION
+Presidential Report Summaries Data File
+
+The zipped data file should be downloaded as binary and unzipped.
+
+Summary:
+The report summaries file contains one record for each financial report (Form 3P) filed by the presidential campaign committees displayed on 
+the Presidential Campaign Finance Map.  
+
+Universe:  All financial reports.   
+
+Associated Files:
+
+Data File:  		REPORT_SUMMARIES_FORM_3P.ZIP
+Data Dictionary:	REPORT_SUMMARY_FORMAT.TXT 
+
+The text file is comma delimited and uses double-quotation marks as the text qualifier.
+.
+
+--------------------------------------------------------------- 
+CMTE_ID				COMMITTEE ID							S
+CMTE_NM				COMMITTEE NAME							S
+CMTE_ST1			COMMITTEE STREET LINE 1						S
+CMTE_ST2			COMMITTEE STREET LINE 2						S
+CMTE_CITY			COMMITTEE CITY							S
+CMTE_ST				COMMITTEE STATE							S
+CMTE_ZIP			COMMITTEE ZIP CODE						S
+CAND_ID				CANDIDATE ID							S
+CAND_NM				CANDIDATE NAME							S
+RPT_YR				REPORT YEAR							N
+RPT_TP				REPORT TYPE							S
+TERM_RPT_FLAG			TERMINATION REPORT FLAG						S
+AMNDT_IND			AMENDMENT INDICATOR						S
+RECEIPT_DT			RECEIPT DATE							D
+CVG_START_DT			COVERAGE START DATE						D
+CVG_END_DT			COVERAGE END DATE						D
+RPT_PGI				REPORT PRIMARY GENERAL INDICATOR				N
+COH_BOP				CASH ON HAND BEGINNING OF PERIOD				N
+TTL_RECEIPTS_SUM_PAGE_PER	TOTAL RECEIPTS SUMMARY PAGE					N
+SUBTTL_SUM_PAGE_PER		SUBTOTAL SUMMARY PAGE						N
+TTL_DISB_SUM_PAGE_PER		TOTAL DISBURSEMENTS SUMMARY PAGE				N
+COH_COP				CASH ON HAND CLOSE OF PERIOD					N
+DEBTS_OWED_TO_CMTE		DEBTS OWED TO THE COMMITTEE					N
+DEBTS_OWED_BY_CMTE		DEBTS OWED BY THE COMMITTEE					N
+EXP_SUBJECT_LIMITS		EXPENDITURES SUBJECT TO LIMITATION				N
+NET_CONTB_SUM_PAGE_PER		NET CONTRIBUTIONS SUMMARY PAGE					N
+NET_OP_EXP_SUM_PAGE_PER		NET OPERATING EXPENDITURES SUMMARY PAGE				N
+FED_FUNDS_PER			FEDERAL FUNDS							N
+INDV_CONTB_PER			INDIVIDUAL CONTRIBUTIONS					N
+POL_PTY_CMTE_CONTB_PER		POLITICAL PARTY CONTRIBUTIONS					N
+OTHER_POL_CMTE_CONTB_PER	OTHER POLITICAL CONTRIBUTIONS					N
+CAND_CONTB_PER			CANDIDATE CONTRIBUTIONS						N
+TTL_CONTB_PER			TOTAL CONTRIBUTIONS						N
+TRANF_FROM_AFFILATED_CMTE_PER	TRANSFERS FROM OTHER AUTHORIZED COMMITTEES			N
+LOANS_RECEIVED_FROM_CAND_PER	LOANS RECEIVED FROM THE CANDIDATE				N
+OTHER_LOANS_RECEIVED_PER	OTHER LOANS							N
+TTL_LOANS_RECEIVED_PER		TOTAL LOANS RECEIVED						N
+OFFSETS_TO_OP_EXP_PER		OFFSETS TO OPERATING EXPENDITURES				N
+OFFSETS_TO_FNDRSG_EXP_PER	OFFSETS TO FUNDRAISING						N
+OFFSETS_TO_LEGAL_ACCTG_PER	OFFSETS TO LEGAL AND ACCOUNTING					N
+TTL_OFFSETS_TO_OP_EXP_PER	TOTAL OFFSETS TO OPERATING EXPENDITURES				N
+OTHER_RECEIPTS_PER		OTHER RECEIPTS							N
+TTL_RECEIPTS_PER		TOTAL RECEIPTS							N
+OP_EXP_PER			OPERATING EXPENDITURES						N
+TRANF_TO_OTHER_AUTH_CMTE_PER	TRANSFERS TO OTHER AUTHORIZED COMMITTEES			N
+FNDRSG_DISB_PER			FUNDRAISING DISBURSMENTS					N
+EXEMPT_LEGAL_ACCTG_DISB_PER	EXEMPT LEGAL AND ACCOUNTING DISBURSEMENTS			N
+REPYMTS_LOANS_MADE_BY_CAND_PER	REPAYMENTS OF LOANS FROM THE CANDIDATE				N
+REPYMTS_OTHER_LOANS_PER		REPAYMENTS OF OTHER LOANS					N
+TTL_LOAN_REPYMTS_MADE_PER	TOTAL LOAN REPAYMENTS MADE					N
+REF_INDV_CONTB_PER		INDIVIDUAL REFUNDS						N
+REF_POL_PTY_CMTE_CONTB_PER	POLITICAL PARTY REFUNDS						N
+REF_OTHER_POL_CMTE_CONTB_PER	OTHER POLITICAL COMMITTEE REFUNDS				N
+TTL_CONTB_REF_PER		TOTAL CONTRIBUTION REFUNDS					N
+OTHER_DISB_PER			OTHER DISBURSEMENTS						N
+TTL_DISB_PER			TOTAL DISBURSEMENTS						N
+ITEMS_ON_HAND_LIQUIDATED	ITEMS ON HAND TO BE LIQUIDATED					N
+TTL_PER				TOTAL ALLOCATION BY STATE					N
+FED_FUNDS_YTD			FEDERAL FUNDS CYCLE TO DATE					N
+INDV_CONTB_YTD			INDIVIDUAL CONTRIBUTIONS CYCLE TO DATE				N
+POL_PTY_CMTE_CONTB_YTD		POLITICAL PARTY CONTRIBUTIONS CYCLE TO DATE			N
+OTHER_POL_CMTE_CONTB_YTD	OTHER POLITICAL CONTRIBUTIONS CYCLE TO DATE			N
+CAND_CONTB_YTD			CANDIDATE CONTRIBUTIONS CYCLE TO DATE				N
+TTL_CONTB_YTD			TOTAL CONTRIBUTIONS CYCLE TO DATE				N
+TRANF_FROM_AFFILIATED_CMTE_YTD	TRANSFERS FROM OTHER AUTHORIZED COMMITTEES CYCLE TO DATE	N
+LOANS_RECEIVED_FROM_CAND_YTD	LOANS RECEIVED FROM THE CANDIDATE CYCLE TO DATE			N
+OTHER_LOANS_RECEIVED_YTD	OTHER LOANS CYCLE TO DATE					N
+TTL_LOANS_RECEIVED_YTD		TOTAL LOANS RECEIVED CYCLE TO DATE				N
+OFFSETS_TO_OP_EXP_YTD		OFFSETS TO OPERATING EXPENDITURES CYCLE TO DATE			N
+OFFSETS_TO_FNDRSG_EXP_YTD	OFFSETS TO FUNDRAISING CYCLE TO DATE				N
+OFFSETS_TO_LEGAL_ACCTG_YTD	OFFSETS TO LEGAL AND ACCOUNTING CYCLE TO DATE			N
+TTL_OFFSETS_TO_OP_EXP_YTD	TOTAL OFFSETS TO OPERATING EXPENDITURES CYCLE TO DATE		N
+OTHER_RECEIPTS_YTD		OTHER RECEIPTS CYCLE TO DATE					N
+TTL_RECEIPTS_YTD		TOTAL RECEIPTS CYCLE TO DATE					N
+OP_EXP_YTD			OPERATING EXPENDITURES CYCLE TO DATE				N
+TRANF_TO_OTHER_AUTH_CMTE_YTD	TRANSFERS TO OTHER AUTHORIZED COMMITTEES CYCLE TO DATE		N
+FNDRSG_DISB_YTD	FUNDRAISING 	DISBURSMENTS CYCLE TO DATE					N
+EXEMPT_LEGAL_ACCTG_DISB_YTD	EXEMPT LEGAL AND ACCOUNTING DISBURSEMENTS CYCLE TO DATE		N
+REPYMTS_LOANS_MADE_CAND_YTD	REPAYMENTS OF LOANS FROM THE CANDIDATE CYCLE TO DATE		N
+REPYMTS_OTHER_LOANS_YTD		REPAYMENTS OF OTHER LOANS CYCLE TO DATE				N
+TTL_LOAN_REPYMTS_MADE_YTD	TOTAL LOAN REPAYMENTS MADE CYCLE TO DATE			N
+REF_INDV_CONTB_YTD		INDIVIDUAL REFUNDS CYCLE TO DATE				N
+REF_POL_PTY_CMTE_CONTB_YTD	POLITICAL PARTY REFUNDS CYCLE TO DATE				N
+REF_OTHER_POL_CMTE_CONTB_YTD	OTHER POLITICAL COMMITTEE REFUNDS CYCLE TO DATE			N
+TTL_CONTB_REF_YTD		TOTAL CONTRIBUTION REFUNDS CYCLE TO DATE			N
+OTHER_DISB_YTD			OTHER DISBURSEMENTS CYCLE TO DATE				N
+TTL_DISB_YTD			TOTAL DISBURSEMENTS CYCLE TO DATE				N
+TTL_YTD	TOTAL 			ALLOCATION BY STATE CYCLE TO DATE				N
+TRES_SIGN_NM			TREASURER NAME							S
+TRES_SIGN_DT			TREASURER SIGNATURE DATE					D
+FILE_NUM			FILE NUMBER							N
+
+Data Type:  S = string (alpha or alpha-numeric); D = date; N = numeric  
+
+---------------------------------------------------------------
+Variable Documentation 
+
+COMMITTEE ID
+String
+
+A 9-character alpha-numeric code assigned to a committee by the Federal Election Commission. 
+
+---------
+COMMITTEE NAME
+String
+
+Form 3P Line 1.
+
+---------
+COMMITTEE STREET LINE 1
+String
+
+Form 3P Line 1.
+
+---------
+COMMITTEE STREET LINE 2
+String
+
+Form 3P Line 1.
+
+---------
+COMMITTEE CITY
+String
+
+Form 3P Line 1.
+
+---------
+COMMITTEE STATE
+String
+
+Form 3P Line 1.
+
+---------
+COMMITTEE ZIP CODE
+String
+
+Form 3P Line 1.
+
+---------
+CANDIDATE ID
+String
+
+A 9-character alpha-numeric code assigned to a candidate by the Federal Election Commission. 
+
+---------
+CANDIDATE NAME
+String
+
+Name of candidate linked to filing campaign committee.
+
+---------
+REPORT YEAR
+Numeric
+
+Report Year.
+
+---------
+REPORT TYPE
+String
+
+Form 3P Line 4A
+
+M1	JANUARY MONTHLY
+M2	FEBRUARY MONTHLY
+M3	MARCH MONTHLY
+M4	APRIL MONTHLY
+M5	MAY MONTHLY
+M6	JUNE MONTHLY
+M7	JULY MONTHLY
+M8	AUGUST MONTHLY
+M9	SEPTEMBER MONTHLY
+M10	OCTOBER MONTHLY
+M11	NOVEMBER MONTHLY
+M12	DECEMBER MONTHLY
+Q1	APRIL QUARTERLY
+Q2	JULY QUARTERLY
+Q3	OCTOBER QUARTERLY
+YE	YEAR-END
+12G	PRE-GENERAL
+30G	POST-GENERAL
+MY	MID-YEAR REPORT
+TER	TERMINATION REPORT
+
+---------
+TERMINATION REPORT FLAG
+String
+
+Form 3P Line 4.
+
+---------
+AMENDMENT INDICATOR
+String
+
+Form 3P Line 4B.   N:  New Report.  A:   Amendment to previously filed report.  
+
+---------
+RECEIPT DATE
+Date
+
+Date report was received at the Federal Election Commission.
+
+---------
+COVERAGE START DATE
+Date
+
+Form 3P Line 5.  
+
+---------
+COVERAGE END DATE
+Date
+
+Form 3P Line 5
+
+---------
+REPORT PRIMARY GENERAL INDICATOR
+String
+
+Form 3P Line 3
+
+---------
+CASH ON HAND BEGINNING OF PERIOD
+Numeric
+
+Form 3P Line 6.
+
+---------
+TOTAL RECEIPTS SUMMARY PAGE
+Numeric
+
+Form 3P Line 7.
+---------
+SUBTOTAL SUMMARY PAGE
+Numeric
+
+Form 3P Line 8.
+
+---------
+TOTAL DISBURSEMENTS SUMMARY PAGE
+Numeric
+
+Form 3P Line 9.
+
+---------
+CASH ON HAND CLOSE OF PERIOD
+Numeric
+
+Form 3P Line 10.
+
+---------
+DEBTS OWED TO THE COMMITTEE
+Numeric
+
+Form 3P Line 11.
+
+---------
+DEBTS OWED BY THE COMMITTEE
+Numeric
+
+Form 3P Line 12.  
+
+---------
+EXPENDITURES SUBJECT TO LIMITATION
+Numeric
+
+Form 3P Line 13.  
+
+---------
+NET CONTRIBUTIONS SUMMARY PAGE
+Numeric
+
+Form 3P Line 14.
+
+---------
+NET OPERATING EXPENDITURES SUMMARY PAGE
+Numeric
+
+Form 3P Line 15.
+
+---------
+FEDERAL FUNDS
+Numeric
+
+Form 3P Line 16, Column A Total This Period.
+
+---------
+INDIVIDUAL CONTRIBUTIONS
+Numeric
+
+Form 3P Line 17a, Column A Total This Period.
+
+---------
+POLITICAL PARTY CONTRIBUTIONS
+Numeric
+
+Form 3P Line 17b, Column A Total This Period.
+
+---------
+OTHER POLITICAL CONTRIBUTIONS
+Numeric
+
+Form 3P Line 17c, Column A Total This Period.  
+---------
+CANDIDATE CONTRIBUTIONS
+Numeric
+
+Form 3P Line 17d, Column A Total This Period.
+
+---------
+TOTAL CONTRIBUTIONS
+Numeric
+
+Form 3P Line 17e, Column A Total This Period.
+
+---------
+TRANSFERS FROM OTHER AUTHORIZED COMMITTEES
+Numeric
+
+Form 3P Line 18, Column A Total This Period.
+
+---------
+LOANS RECEIVED FROM THE CANDIDATE
+Numeric
+
+Form 3P Line 19a, Column A Total This Period.
+
+---------
+OTHER LOANS
+Numeric
+
+Form 3P Line 19b, Column A Total This Period.
+
+---------
+TOTAL LOANS RECEIVED
+Numeric
+
+Form 3P Line 19c, Column A Total This Period.
+
+---------
+OFFSETS TO OPERATING EXPENDITURES
+Numeric
+
+Form 3P Line 20a, Column A Total This Period.
+
+---------
+OFFSETS TO FUNDRAISING
+Numeric
+
+Form 3P Line 20b, Column A Total This Period.
+
+---------
+OFFSETS TO LEGAL AND ACCOUNTING
+Numeric
+
+Form 3P Line 20c, Column A Total This Period.
+
+---------
+TOTAL OFFSETS TO OPERATING EXPENDITURES
+Numeric
+
+Form 3P Line 20d, Column A Total This Period.
+
+---------
+OTHER RECEIPTS
+Numeric
+
+Form 3P Line 21, Column A Total This Period.
+
+---------
+TOTAL RECEIPTS
+Numeric
+
+Form 3P Line 22
+
+---------
+OPERATING EXPENDITURES
+Numeric
+
+Form 3P Line 23, Column A Total This Period.
+
+---------
+TRANSFERS TO OTHER AUTHORIZED COMMITTEES
+Numeric
+
+Form 3P Line 24, Column A Total This Period.
+
+---------
+FUNDRAISING DISBURSMENTS
+Numeric
+
+Form 3P Line 25, Column A Total This Period.
+
+---------
+EXEMPT LEGAL AND ACCOUNTING DISBURSEMENTS
+Numeric
+
+Form 3P Line 26, Column A Total This Period.
+
+---------
+REPAYMENTS OF LOANS FROM THE CANDIDATE
+Numeric
+
+Form 3P Line 27a, Column A Total This Period.
+
+---------
+REPAYMENTS OF OTHER LOANS
+Numeric
+
+Form 3P Line 27b, Column A Total This Period.
+
+---------
+TOTAL LOAN REPAYMENTS MADE
+Numeric
+
+Form 3P Line 27c, Column A Total This Period.
+
+---------
+INDIVIDUAL REFUNDS
+Numeric
+
+Form 3P Line 28a, Column A Total This Period.
+
+---------
+POLITICAL PARTY REFUNDS
+Numeric
+
+Form 3P Line 28b, Column A Total This Period.
+
+---------
+OTHER POLITICAL COMMITTEE REFUNDS
+Numeric
+
+Form 3P Line 28c, Column A Total This Period.
+
+---------
+TOTAL CONTRIBUTION REFUNDS
+Numeric
+
+Form 3P Line 28d, Column A Total This Period.
+
+---------
+OTHER DISBURSEMENTS
+Numeric
+
+Form 3P Line 29, Column A Total This Period. 
+
+---------
+TOTAL DISBURSEMENTS
+Numeric
+
+Form 3P Line 30, Column A Total This Period.
+
+---------
+ITEMS ON HAND TO BE LIQUIDATED
+Numeric
+
+Form 3P Line 31.
+
+---------
+TOTAL ALLOCATION BY STATE
+Numeric
+
+Total Allocation This Period from the State Allocation Page.  Form 3P Page 4. 
+
+---------
+FEDERAL FUNDS CYCLE TO DATE
+Numeric
+
+Form 3P Line 16, Column B Election Cycle-to-Date.
+---------
+INDIVIDUAL CONTRIBUTIONS CYCLE TO DATE
+Numeric
+
+Form 3P Line 17a, Column B Election Cycle-to-Date.
+
+---------
+POLITICAL PARTY CONTRIBUTIONS CYCLE TO DATE
+Numeric
+
+Form 3P Line 17b, Column B Election Cycle-to-Date.
+
+---------
+OTHER POLITICAL CONTRIBUTIONS CYCLE TO DATE
+Numeric
+
+Form 3P Line 17c, Column B Election Cycle-to-Date.  
+
+---------
+CANDIDATE CONTRIBUTIONS CYCLE TO DATE
+Numeric
+
+Form 3P Line 17d, Column B Election Cycle-to-Date.
+
+---------
+TOTAL CONTRIBUTIONS CYCLE TO DATE
+Numeric
+
+Form 3P Line 17e, Column B Election Cycle-to-Date.
+
+---------
+TRANSFERS FROM OTHER AUTHORIZED COMMITTEES CYCLE TO DATE
+Numeric
+
+Form 3P Line 18, Column B Election Cycle-to-Date.
+
+---------
+LOANS RECEIVED FROM THE CANDIDATE CYCLE TO DATE
+Numeric
+
+Form 3P Line 19a, Column B Election Cycle-to-Date.
+
+---------
+OTHER LOANS CYCLE TO DATE
+Numeric
+
+Form 3P Line 19b, Column B Election Cycle-to-Date.
+
+---------
+TOTAL LOANS RECEIVED CYCLE TO DATE
+Numeric
+
+Form 3P Line 19c, Column B Election Cycle-to-Date.
+
+---------
+OFFSETS TO OPERATING EXPENDITURES CYCLE TO DATE
+Numeric
+
+Form 3P Line 20a, Column B Election Cycle-to-Date.
+
+---------
+OFFSETS TO FUNDRAISING CYCLE TO DATE
+Numeric
+
+Form 3P Line 20b, Column B Election Cycle-to-Date.
+
+---------
+OFFSETS TO LEGAL AND ACCOUNTING CYCLE TO DATE
+Numeric
+
+Form 3P Line 20c, Column B Election Cycle-to-Date.
+
+---------
+TOTAL OFFSETS TO OPERATING EXPENDITURES CYCLE TO DATE
+Numeric
+
+Form 3P Line 20d, Column B Election Cycle-to-Date.
+
+---------
+OTHER RECEIPTS CYCLE TO DATE
+Numeric
+
+Form 3P Line 21, Column B Election Cycle-to-Date.
+
+---------
+TOTAL RECEIPTS CYCLE TO DATE
+Numeric
+
+Form 3P Line 22, Column B Election Cycle-to-Date.
+
+---------
+OPERATING EXPENDITURES CYCLE TO DATE
+Numeric
+
+Form 3P Line 23, Column B Election Cycle-to-Date.
+
+---------
+TRANSFERS TO OTHER AUTHORIZED COMMITTEES CYCLE TO DATE
+Numeric
+
+Form 3P Line 24, Column B Election Cycle-to-Date.
+
+---------
+FUNDRAISING DISBURSMENTS CYCLE TO DATE
+Numeric
+
+Form 3P Line 25, Column B Election Cycle-to-Date.
+
+---------
+EXEMPT LEGAL AND ACCOUNTING DISBURSEMENTS CYCLE TO DATE
+Numeric
+
+Form 3P Line 26, Column B Election Cycle-to-Date.
+
+---------
+
+REPAYMENTS OF LOANS FROM THE CANDIDATE CYCLE TO DATE
+Numeric
+
+Form 3P Line 27a, Column B Election Cycle-to-Date.
+
+---------
+REPAYMENTS OF OTHER LOANS CYCLE TO DATE
+Numeric
+
+Form 3P Line 27b, Column B Election Cycle-to-Date.
+
+---------
+TOTAL LOAN REPAYMENTS MADE CYCLE TO DATE
+Numeric
+
+Form 3P Line 27c, Column B Election Cycle-to-Date.
+
+---------
+INDIVIDUAL REFUNDS CYCLE TO DATE
+Numeric
+
+Form 3P Line 28a, Column B Election Cycle-to-Date.
+
+---------
+POLITICAL PARTY REFUNDS CYCLE TO DATE
+Numeric
+
+Form 3P Line 28b, Column B Election Cycle-to-Date.
+
+---------
+OTHER POLITICAL COMMITTEE REFUNDS CYCLE TO DATE
+Numeric
+
+Form 3P Line 28c, Column B Election Cycle-to-Date.
+
+---------
+TOTAL CONTRIBUTION REFUNDS CYCLE TO DATE
+Numeric
+
+Form 3P Line 28d, Column B Election Cycle-to-Date.
+
+---------
+OTHER DISBURSEMENTS CYCLE TO DATE
+Numeric
+
+Form 3P Line 29, Column B Election Cycle-to-Date. 
+
+---------
+TOTAL DISBURSEMENTS CYCLE TO DATE
+Numeric
+
+Form 3P Line 30, Column B Election Cycle-to-Date.
+
+---------
+TOTAL ALLOCATION BY STATE CYCLE TO DATE
+Numeric
+
+Total Allocation To Date from the State Allocation Page.  Form 3P Page 4. 
+
+---------
+TREASURER NAME
+String
+
+Form 3P Page 1.  
+
+---------
+TREASURER SIGNATURE DATE
+Date
+
+Date treasurer signed report.  Form 3P Page 1.
+---------
+FILE NUMBER
+Numeric
+
+A unique number assigned to a report and all its associated transactions.   Use the file number to link the report summaries to its associated transactions.  
